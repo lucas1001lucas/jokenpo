@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="funcionalidade.js"></script>
+    <title>Jokenpô</title>
+</head>
+<body>
+    <div id="principal">
+        <h1>&#x1F44A; &#x270B; &#x270C; Jokenpô &#x1F44A; &#x270B; &#x270C;</h1>
+        <h2 id="titulo">Vez do jogador 1</h2>
+
+        <div>
+            <ul>
+                <hr>
+                <li id="pedra" 
+                    onmouseover="entrou('pedra')" 
+                    onmouseout="saiu('pedra')" 
+                    onclick="clicou('Pedra')">
+                    Pedra
+                </li>
+                <li id="papel" 
+                    onmouseover="entrou('papel')" 
+                    onmouseout="saiu('papel')" 
+                    onclick="clicou('Papel')">
+                    Papel
+                </li>
+                <li id="tesoura" 
+                    onmouseover="entrou('tesoura')" 
+                    onmouseout="saiu('tesoura')" 
+                    onclick="clicou('Tesoura')">
+                    Tesoura
+                </li>
+                <hr>
+                <li id="reiniciar" 
+                    onmouseover="entrou('reiniciar')"   
+                    onmouseout="saiu('reiniciar')" 
+                    onclick="reiniciar()">
+                    Reiniciar
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

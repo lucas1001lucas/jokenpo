@@ -10,7 +10,7 @@ body {
     margin-top: 6%;
     border-radius: 25px;
     border: 2px solid black;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.582);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.500);
 }
 
 h1 {
@@ -35,10 +35,10 @@ ul {
 li {
     margin: 6px;
     padding: 5px;
-    background-color: #3333ff;
+    background-color: rgb(50, 50, 255);
     color: white;
 }
 
 #reiniciar {
-    background-color: #ff0000;
+    background-color: rgb(255, 0, 0);
 }

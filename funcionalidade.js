@@ -78,22 +78,8 @@ function reiniciar() {
     escolhaDois = ''
 }
 
-function entrou(identificacao) {
+function ColorAndTransparence(identificacao, cor, transparencia) {
     let acesso = window.document.getElementById(identificacao)
 
-    if (identificacao == 'reiniciar') {
-        acesso.style.backgroundColor = '#ff0000b2'
-    } else {
-        acesso.style.backgroundColor = '#3333ffce'
-    }
-}
-
-function saiu(identificacao) {
-    let acesso = window.document.getElementById(identificacao)
-
-    if (identificacao == 'reiniciar') {
-        acesso.style.backgroundColor = '#ff0000'
-    } else {
-        acesso.style.backgroundColor = '#3333ff'
-    }
+    acesso.style.backgroundColor = `rgb(${cor}, ${transparencia})`
 }

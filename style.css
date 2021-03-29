@@ -2,10 +2,9 @@ body {
     background-color: rgb(160, 227, 236);
 }
 
-#principal {
-    background-color: white;
-    height: 400px;
-    width: 300px;
+div#principal {
+    background-color: rgb(255, 255, 255);
+    width: 24%;
     margin: auto;
     margin-top: 6%;
     border-radius: 25px;
@@ -39,6 +38,18 @@ li {
     color: white;
 }
 
-#reiniciar {
+li#reiniciar {
     background-color: rgb(255, 0, 0);
+}
+
+div.among {
+    background-image: url('./AmongUs.gif'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40%;
+}
+
+div#global {
+    display: flex;
+    margin-top: 5%;
 }

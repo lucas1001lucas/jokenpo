@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,41 +9,38 @@
     <script src="funcionalidade.js"></script>
     <title>Jokenpô</title>
 </head>
-<body>
-    <div id="principal">
-        <h1>&#x1F44A; &#x270B; &#x270C; Jokenpô &#x1F44A; &#x270B; &#x270C;</h1>
-        <h2 id="titulo">Vez do jogador 1</h2>
 
-        <div>
-            <ul>
-                <hr>
-                <li id="pedra" 
-                    onmouseover="ColorAndTransparence('pedra', '50, 50, 255', '0.750')" 
-                    onmouseout="ColorAndTransparence('pedra', '50, 50, 255', '1')" 
-                    onclick="clicou('Pedra')">
-                    Pedra
-                </li>
-                <li id="papel" 
-                    onmouseover="ColorAndTransparence('papel', '50, 50, 255', '0.750')" 
-                    onmouseout="ColorAndTransparence('papel', '50, 50, 255', '1')"  
-                    onclick="clicou('Papel')">
-                    Papel
-                </li>
-                <li id="tesoura" 
-                    onmouseover="ColorAndTransparence('tesoura', '50, 50, 255', '0.750')" 
-                    onmouseout="ColorAndTransparence('tesoura', '50, 50, 255', '1')" 
-                    onclick="clicou('Tesoura')">
-                    Tesoura
-                </li>
-                <hr>
-                <li id="reiniciar" 
-                    onmouseover="ColorAndTransparence('reiniciar', '255, 0, 0', '0.750')" 
-                     onmouseout="ColorAndTransparence('reiniciar', '255, 0, 0', '1')"  
-                    onclick="reiniciar()">
-                    Reiniciar
-                </li>
-            </ul>
+<body>
+    <div id="global">
+        <div class="among">.</div>
+        <div id="principal">
+            <h1>&#x1F44A; &#x270B; &#x270C; Jokenpô &#x1F44A; &#x270B; &#x270C;</h1>
+            <h2 id="titulo">Vez do jogador 1</h2>
+            <div>
+                <ul>
+                    <hr>
+                    <li id="pedra" onmouseover="ColorAndTransparence('pedra', '50, 50, 255', '0.750')"
+                        onmouseout="ColorAndTransparence('pedra', '50, 50, 255', '1')" onclick="clicou('Pedra')">
+                        Pedra
+                    </li>
+                    <li id="papel" onmouseover="ColorAndTransparence('papel', '50, 50, 255', '0.750')"
+                        onmouseout="ColorAndTransparence('papel', '50, 50, 255', '1')" onclick="clicou('Papel')">
+                        Papel
+                    </li>
+                    <li id="tesoura" onmouseover="ColorAndTransparence('tesoura', '50, 50, 255', '0.750')"
+                        onmouseout="ColorAndTransparence('tesoura', '50, 50, 255', '1')" onclick="clicou('Tesoura')">
+                        Tesoura
+                    </li>
+                    <hr>
+                    <li id="reiniciar" onmouseover="ColorAndTransparence('reiniciar', '255, 0, 0', '0.750')"
+                        onmouseout="ColorAndTransparence('reiniciar', '255, 0, 0', '1')" onclick="reiniciar()">
+                        Reiniciar
+                    </li>
+                </ul>
+            </div>
         </div>
+        <div class="among">.</div>
     </div>
 </body>
+
 </html>
